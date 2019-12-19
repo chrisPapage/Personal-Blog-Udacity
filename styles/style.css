@@ -1,0 +1,80 @@
+@import "footer.css";
+@import "header.css";
+@import "about.css";
+@import "blog.css";
+@import "contact.css";
+@import "blogPosts.css";
+
+
+body{
+    background-color:#444; 
+    color:antiquewhite;
+    font-size:27px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.5;
+
+}
+
+
+
+
+main{
+    display: grid;
+    grid-template-areas: "header" "about" "blog" "contact" "footer";
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+    margin:0 auto;
+    
+}
+
+a {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+  }
+  
+  a:hover {
+    color: #e2e8f0;
+  }
+
+  
+  h1 {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  
+
+
+
+
+
+

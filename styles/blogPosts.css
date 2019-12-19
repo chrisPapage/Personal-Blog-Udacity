@@ -1,0 +1,105 @@
+.post{
+    align-items: center;
+    background-color: #444;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    grid-area: blog;
+    grid-row: 2/6;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+}
+
+.post_header{
+    align-items: center;
+    background-color: rgb(109, 107, 107);
+    border: 0 solid;
+    border-radius: 0.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto 2rem;
+    min-height: 8rem;
+    max-width: 1024px;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.post_header img{
+    border: 0 solid;
+    border-radius: 9999px;
+    height: 6rem;
+    width: 6rem;
+    -webkit-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.author_details{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+
+.author_details{
+    margin-top: 2rem;
+}
+
+.post_image{
+    margin: 1rem 0 0;
+    width: 100%;
+}
+
+.post_image_caption{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.post_content{
+    background-color: rgb(90, 83, 83);
+    border: 0 solid;
+    border-radius: 0.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    overflow: hidden;
+    padding: 2rem;
+    width: 100%;
+}
+
+.post_content p{
+    margin: 2rem 0;
+    text-indent: 40px;
+    
+}
+
+.post_content h2{
+    text-align: center;
+
+}
+
+@media (min-width: 768px){ 
+    .blog-card { 
+      flex-direction: row; 
+      margin: 0 0 1.5rem 0; 
+      max-width: 100%; 
+    }
+  }
+
+  @media (min-width: 1024px) {
+     .blog-card-image {
+        height: auto; 
+        width: 33.33333%; 
+      } 
+    }
